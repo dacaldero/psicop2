@@ -24,12 +24,12 @@
     <data-source>
         
         <name>java:app/ds_psicop1</name>
-        <class-name>com.mysql.cj.jdbc.MysqldataSource</class-name>
+        <class-name>com.mysql.cj.jdbc.MysqlDataSource</class-name>
         <server-name>localhost</server-name>
         <port-number>3306</port-number>
-        <database-name>user psicop1</database-name>
+        <database-name>psicop1</database-name>
         <user>root</user>
-        <password>root</password>
+        <password>anaraquel</password>
         <property>
             <name>useSSL</name>
             <value>false</value>
@@ -43,7 +43,7 @@
         
         <initial-pool-size>8</initial-pool-size>
         <max-pool-size>32</max-pool-size>
-        <max-pool-size>8</max-pool-size>
+        <min-pool-size>8</min-pool-size>
         
     </data-source>
 </web-app>
